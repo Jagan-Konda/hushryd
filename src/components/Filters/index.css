@@ -1,0 +1,199 @@
+.filters-main-container {
+    width: 280px;
+    min-height: 807px;
+    gap: 24px;
+
+}
+
+.filters-reset-container {
+    width: 280px;
+    min-height: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filters-heading {
+    min-width: 55.90999984741211px;
+    min-height: 21px;
+    font-family: "Inter";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #1E293B;
+}
+
+.filters-reset-all-button {
+    min-width: 52.970001220703125px;
+    min-height: 16px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #D26100;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.filters-sort-by-container {
+    width: 280px;
+    height: 157px;
+    border-bottom: 1px solid #F1F5F9
+}
+
+.filters-sort-by-text {
+    min-width: 280px;
+    min-height: 17px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #1E293B;
+}
+
+.filters-sort-by-input-text-container {
+    width: 280px;
+    min-height: 21px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+
+.filters-sort-by-input {
+    width: 18px;
+    height: 18px;
+    border-radius: 50px;
+    border-width: 1px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 5px;
+    border: 1px solid #D26100;
+    accent-color: #D26100;
+    cursor: pointer;
+}
+
+.filters-sorts-by-input-label {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #475569;
+    cursor: pointer;
+}
+
+.filters-category-container {
+    width: 280px;
+    height: 202px;
+    border-bottom: 1px solid #F1F5F9
+}
+
+.filters-category-heading {
+    width: 280px;
+    height: 17px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+
+}
+
+.filters-category-text-container {
+    width: 280px;
+    height: 24px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    padding: 4px 3px 3px 3px;
+
+
+}
+
+.filters-category-input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #767676;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+
+.filters-category-input:checked {
+    border: none;
+    background-color: #D26100;
+}
+
+.filters-category-label {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #475569;
+    cursor: pointer;
+}
+
+.filters-trust-safety-card {
+    width: 280px;
+    height: 129px;
+    gap: 12px;
+    border-radius: 16px;
+    border-width: 1px;
+    padding: 21px;
+    background-color: #EFF6FF;
+    border: 1px solid #DBEAFE;
+}
+
+.filters-trust-safety-icon-text {
+    width: 238px;
+    height: 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.filters-trust-safety-icon {
+    width: 13px;
+    height: 13px;
+    color: #2563EB;
+    border-width: 1.08px;
+}
+
+.filters-trust-safety-text {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #2563EB;
+
+}
+
+.filters-trust-safety-description {
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: Bold;
+    font-size: 13px;
+    line-height: 19.5px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #475569;
+}

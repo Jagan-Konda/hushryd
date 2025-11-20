@@ -1,0 +1,96 @@
+.ride-details-main-container {
+    width: 1440px;
+    min-height: 115px;
+    padding-top: 24px;
+    padding-right: 104px;
+    padding-bottom: 25px;
+    padding-left: 104px;
+    border-bottom: 1px solid #E2E8F0;
+    box-shadow: 0px 4px 12px -4px #00000008;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ride-details-responsive-container {
+    width: 1232px;
+    min-height: 66px;
+    gap: 16px;
+    border-radius: 16px;
+    border-width: 1px;
+    padding: 9px;
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    display: flex;
+    align-items: center;
+}
+
+.ride-details-icon-text-container {
+    width: 297.4100036621094px;
+    min-height: 34px;
+    border-right: 1px solid #E2E8F0;
+    padding-right: 17px;
+    padding-left: 16px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.ride-details-icon {
+    min-width: 20px;
+    min-height: 20px;
+    color: #64748B;
+}
+
+.ride-details-text-container {
+    min-width: 167.97000122070312px;
+    min-height: 34px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ride-details-text-label {
+    width: 100%;
+    min-height: 14px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 11px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #64748B;
+}
+
+.ride-details-input {
+    width: 100%;
+    min-height: 20px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    border: none;
+    outline: none;
+}
+
+.ride-details-modify-button {
+    width: 120px;
+    height: 48px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 12px;
+    background-color: #D26100;
+    box-shadow: 0px 4px 12px 0px #D2610033;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    border: none;
+}

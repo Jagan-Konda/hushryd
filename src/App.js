@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   return (
     <div class="main-container">
-      <Home />
+      <div className='responsive-container'>
+        <Home />
+      </div>
     </div>
   )
 }
