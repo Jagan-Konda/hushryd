@@ -1,0 +1,62 @@
+.rides-main-container {
+    width: 912px;
+    min-height: 996px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rides-count-alert-container {
+    width: 912px;
+    min-height: 36px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rides-count-text {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+
+}
+
+.rides-alert-button {
+    min-width: 128.6999969482422;
+    height: 36;
+    padding: 1px 17px 1px 17px;
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+    background-color: transparent;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.rides-alert-icon {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+
+.rides-list-container {
+    list-style-type: none;
+    padding-left: 0;
+    width: 912px;
+    height: 840px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
